@@ -1,0 +1,8 @@
+import pandas 
+import numpy 
+import pandas_datareader.data 
+import matplotlib.pyplot 
+import warnings
+from sklearn.covariance import LedoitWolf, OAS
+from scipy.optimize import minimize
+import statsmodels.api 
